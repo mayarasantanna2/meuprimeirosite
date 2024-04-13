@@ -4,7 +4,6 @@ background-color: darkgrey ;
 header{
 background-color: aqua;
 padding: 3%;
-
 }
 .logo{
 background-color: gold;
@@ -22,6 +21,15 @@ section{
 background-color: crimson;
 }
 footer{
-    background-color: darkorange;
-    padding: 3%;    
+    background-color: darkviolet;
+    padding: 3%;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
+h1,h2{
+    line-height: 3%;
 }
