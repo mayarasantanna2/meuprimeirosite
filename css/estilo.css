@@ -1,21 +1,27 @@
 body{
-
+background-color: darkgrey ;
 }
 header{
+background-color: aqua;
+padding: 3%;
 
 }
 .logo{
-
+background-color: blue;
 }
 nav{
-
+background-color: blueviolet;
 }
 main{
-
+background-color: chartreuse;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 section{
-
+background-color: crimson;
 }
 footer{
-    
+    background-color: darkorange;
+    padding: 3%;    
 }
