@@ -18,10 +18,10 @@ margin-left: auto;
 margin-right: auto;
 }
 section{
-background-color: crimson;
+background-color: coral;
 }
 footer{
-    background-color: darkviolet;
+    background-color: blue;
     padding: 3%;
 }
 .cabecalho{
@@ -30,6 +30,12 @@ footer{
 .rodape{
     padding: 3%;
 }
-h1,h2{
-    line-height: 3%;
+p{
+    line-height: 1.5;
+}
+ul li{
+    line-height: 1.5;
+}
+.titulos{
+    line-height: 3;
 }
