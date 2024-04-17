@@ -1,6 +1,7 @@
 body{
 background-color: darkgrey ;
-background-image: url(); nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*********************************************
+background-image: url(..img/fundoteste.webp);
+
 }
 header{
 background-color: aqua;
@@ -33,6 +34,7 @@ footer{
 }
 p{
     line-height: 1.5;
+
 }
 ul li{
     line-height: 1.5;
