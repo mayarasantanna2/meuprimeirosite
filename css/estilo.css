@@ -1,15 +1,16 @@
 body{
 background-color: darkgrey ;
+background-image: url(); nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*********************************************
 }
 header{
 background-color: aqua;
-padding: 3%;
+padding: 1%;
 }
 .logo{
-background-color: gold;
+
 }
 nav{
-background-color: blueviolet;
+
 }
 main{
 background-color: chartreuse;
@@ -21,7 +22,7 @@ section{
 background-color: coral;
 }
 footer{
-    background-color: blue;
+    background-color: rgb(255, 0, 212);
     padding: 3%;
 }
 .cabecalho{
@@ -38,4 +39,7 @@ ul li{
 }
 .titulos{
     line-height: 3;
+}
+.logost{
+    width: 20%;
 }
