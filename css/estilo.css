@@ -64,7 +64,7 @@ table{
     margin-bottom: auto;
 }
 td,th{
-    border: 5px dashed white;
+    border: 5px dashed red
     padding: 1.5%;
 }
 tr:nth-child(even) {
