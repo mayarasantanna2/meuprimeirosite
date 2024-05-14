@@ -1,10 +1,11 @@
 body{
-background-color: darkgrey ;
-background-image: url();
+background-image: url("../img/fundo\ st.webp");
+color: white;
 
 }
+
 header{
-background-color: aqua;
+background-color: black;
 padding: 1%;
 }
 .logo{
@@ -14,16 +15,16 @@ nav{
 
 }
 main{
-background-color: chartreuse;
+background-color: black;
 width: 80%;
 margin-left: auto;
 margin-right: auto;
 }
 section{
-background-color: coral;
+background-color: black;
 }
 footer{
-    background-color: rgb(255, 0, 212);
+    background-color: black;
     padding: 3%;
 }
 .cabecalho{
@@ -45,11 +46,12 @@ ul li{
 
 }
 .logost{
-    width: 15%;
+    width: 10%;
     
 }
 h1{
     font-size: 2em;
+
 }
 h2{
     font-size: 1.5em;
@@ -64,8 +66,9 @@ table{
     margin-bottom: auto;
 }
 td,th{
-    border: 5px dashed red
+    border: 5px dashed red;
     padding: 1.5%;
+    font-family: "Embed code";
 }
 tr:nth-child(even) {
     background-color: red;
