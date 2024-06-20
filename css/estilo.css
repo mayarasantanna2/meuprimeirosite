@@ -61,7 +61,7 @@ h2{
     text-align: center;
 }
 table{
-    border-collapse: collapse;
+    border-style: solid;
     width: 80%;
     font-size: 1,2em;
     margin-left: auto;
@@ -69,7 +69,7 @@ table{
     margin-bottom: auto;
 }
 td,th{
-    border: 5px dashed red;
+    border:2pt solid rgb(119, 119, 119);
     padding: 1.5%;
     font-family: "Embed code";
 }
