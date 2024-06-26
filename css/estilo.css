@@ -21,6 +21,14 @@ text-align: justify;
 section{
 background-color: black;
 }
+
+@media screen and (min-width: 800px) {
+    menu {
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 70%;
+    }}
 footer{
     background-color: black;
     padding: 1%;
