@@ -119,3 +119,20 @@ a{
 .PROTAGONISTAS{
     padding-bottom: 2%;
 }
+.topleft{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-size: 2vw;
+    color: black;
+}
+.inicio2{
+    position: relative;
+}
+.netflix{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+}
+
