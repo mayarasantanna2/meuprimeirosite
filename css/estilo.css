@@ -8,6 +8,7 @@ header{
 background-color: black;
 padding: 1%;
 text-align: center;
+
 }
 
 main{
@@ -24,7 +25,6 @@ background-color: black;
 }
 @media screen and (min-width: 800px){
         .menu2{
-            position: sticky;
             display: flex;
             top: 0;
             left: 0;
@@ -42,9 +42,9 @@ footer{
     text-align: center;
     font-size: 0.9em;
 }
-.cabecalho{
-    padding: 3%;
-}
+
+
+
 .rodape{
     padding: 1%;
 }
