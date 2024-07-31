@@ -18,17 +18,22 @@ margin-right: auto;
 padding: 2%;
 text-align: justify;
 }
+
 section{
 background-color: black;
 }
 @media screen and (min-width: 800px){
         .menu2{
-            position: relative;
-            right: 100px;
-            top: 30%;
-            width: 70%;
-            left: 210px;
-            display: block;
+            position: sticky;
+            display: flex;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #000;
+            color: white;
+            padding: 10px;
+            z-index: 1000; 
+            justify-content: center;
         }
 }
 footer{
@@ -155,5 +160,8 @@ a{
     width: 80%;
     display: block;
     
+}
+html{
+    scroll-behavior: smooth;
 }
 
