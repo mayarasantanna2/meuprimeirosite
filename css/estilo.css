@@ -25,7 +25,7 @@ background-color: black;
 }
 @media screen and (min-width: 800px){
         .menu2{
-            display: flex;
+            display:block;
             top: 0;
             left: 0;
             width: 100%;
@@ -34,6 +34,7 @@ background-color: black;
             padding: 10px;
             z-index: 1000; 
             justify-content: center;
+
         }
 }
 footer{
@@ -164,4 +165,6 @@ a{
 html{
     scroll-behavior: smooth;
 }
-
+form{
+    padding: 2%;
+}
