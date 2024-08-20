@@ -28,7 +28,19 @@
     <main>
         <section>
             <h1>Entre em contato</h1>
-            <p>Preencha os dados abaixo para resolver seu problema:</p>
+            <p></p>
+            <h2>Preencha os dados abaixo para resolver seu problema:</h2>
+
+            <p>Selecione o tipo de problema:</p>
+
+            <form action="checkbox1"> 
+                 <input type="radio" id="Dúvidas" name="fav_language" value="Dúvidas">
+                <label for="html">Dúvidas</label>
+                <input type="radio" id="Reclamações" name="fav_language" value="Reclamações">
+                <label for="css">Reclamações</label>
+                <input type="radio" id="Outro" name="fav_language" value="Outro">
+                <label for="javascript">Outros</label>
+            </form>
 
            <form action="email e nome">
                 <label for="nome">Nome completo:</label> 
@@ -39,9 +51,11 @@
             
             <form action="caixa de texto">
                 <textarea name="descriçao" rows="10" cols="30">Descreva seu problema:</textarea>
-                <br><br>
-                <input type="Enviar">
-              </form>
+            </form>
+    
+            <form action="enviar">
+                <input type="submit" value="Enviar">
+            </form>
 
         </section>
     </main>
