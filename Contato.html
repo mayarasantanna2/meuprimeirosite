@@ -34,7 +34,7 @@
             <p>Selecione o tipo de problema:</p>
 
             <form action="checkbox1"> 
-                 <input type="radio" id="Dúvidas" name="fav_language" value="Dúvidas">
+                 <input type="radio" id="Dúvidas" name="fav_language" value="Dúvidas" >
                 <label for="html">Dúvidas</label>
                 <input type="radio" id="Reclamações" name="fav_language" value="Reclamações">
                 <label for="css">Reclamações</label>
@@ -44,17 +44,28 @@
 
            <form action="email e nome">
                 <label for="nome">Nome completo:</label> 
-                <input type="text" name="nome" id="nome" value=" ">
+                <input type="text" name="nome" id="nome"  placeholder="Seu Nome" required>
                 <label for="email">Email:</label>
-                <input type="text" id="email" value=" ">
+                <input type="text" id="email" placeholder="Seu Email" required>
             </form>
             
             <form action="caixa de texto">
-                <textarea name="descriçao" rows="10" cols="30">Descreva seu problema:</textarea>
+                <textarea name="descriçao" rows="10" cols="30" placeholder= "Descreva seu problema/Dúvida aqui:"></textarea>
             </form>
     
             <form action="enviar">
                 <input type="submit" value="Enviar">
+            </form>
+
+            <form action="areainteresse">
+                <label for="country">Área de Interesse</label>
+                <option value="engenharia">Engenharia</option>
+                <option value="ti">Ciência da Computação</option>
+                <option value="direito">Direito</option>
+                <option value="med">Medicina</option>
+
+
+
             </form>
 
         </section>
