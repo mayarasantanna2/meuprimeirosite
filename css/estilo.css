@@ -7,6 +7,8 @@ font-family: "Open Sans", sans-serif;
 header{
 background-color: black;
 padding: 1%;
+text-align: center;
+
 }
 
 main{
@@ -14,22 +16,43 @@ background-color: black;
 width: 80%;
 margin-left: auto;
 margin-right: auto;
+padding: 2%;
+text-align: justify;
 }
+
 section{
 background-color: black;
 }
+@media screen and (min-width: 800px){
+        .menu2{
+            display:block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #000;
+            color: white;
+            padding: 10px;
+            z-index: 1000; 
+            justify-content: center;
+
+        }
+}
 footer{
     background-color: black;
-    padding: 3%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9em;
 }
-.cabecalho{
-    padding: 3%;
-}
+
+
+
 .rodape{
-    padding: 3%;
+    padding: 1%;
 }
 p{
     line-height: 1.5;
+    padding-bottom: 1%;
+
 
 }
 ul li{
@@ -41,20 +64,23 @@ ul li{
 
 }
 .logost{
-    width: 10%;
+    width: 12%;
     
 }
 h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 1%;
 
 }
 h2{
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 table{
-    border-collapse: collapse;
+    border-style: solid;
     width: 80%;
     font-size: 1,2em;
     margin-left: auto;
@@ -62,7 +88,7 @@ table{
     margin-bottom: auto;
 }
 td,th{
-    border: 5px dashed red;
+    border:2pt solid rgb(119, 119, 119);
     padding: 1.5%;
     font-family: "Embed code";
 }
@@ -82,4 +108,63 @@ tr:nth-child(even) {
     width: 90%;
     margin-left: 1%;
     margin-right: 1%;
+}
+.col6{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    background-color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.row{
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.float{
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+}
+
+nav a:hover{
+    color: red;
+    font-weight: 2.0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.imgtabela{
+    padding-top: 2%;
+    
+}
+.PROTAGONISTAS{
+    padding-bottom: 2%;
+}
+.topleft{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-size: 2vw;
+    color: #000;
+}
+.inicio2{
+    position: relative;
+}
+.netflix{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 80%;
+    display: block;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+form{
+    padding: 2%;
 }
